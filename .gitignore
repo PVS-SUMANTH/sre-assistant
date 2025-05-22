@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+#bootstrap
+bootstrap.sh
+
+# Logs & summaries (machine-generated)
+data
+logs
+*.md
+
+# Local configs
+configs/
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+*.idea/
+*.vscode/
+crontab.txt
+
+# System files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Icon?
+.Spotlight-V100
+.Trashes
+
+# OS-specific folders
+*.sublime-project
+*.sublime-workspace
+
+# API Keys or secrets
+secrets/
+*.key
+*.pem
+*.crt
+*.gpg
+
+# Optional: ignore your GPT output drafts (if you don’t want them versioned)
+gpt_drafts/
